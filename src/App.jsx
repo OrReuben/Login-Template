@@ -3,11 +3,14 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import { UserContext } from "./context/userContext";
 import { useContext } from "react";
+import data from './data.json'
+
 
 const App = () => {
   const { users } = useContext(UserContext);
   const change = "navbar-1"
   console.log(change);
+  console.log(data);
 
   return (
     <>
