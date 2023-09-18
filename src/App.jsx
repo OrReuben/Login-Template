@@ -16,11 +16,16 @@ const App = () => {
           <li>
             <Link to={"/register"}>register</Link>
           </li>
+          <li>
+            <Link to={"/no-route"}>nowhere</Link>
+          </li>
         </ul>
       </>
-<h1><A>
-  Ariel <Ohana></Ohana>
-  </A></h1>
+      <Routes>
+        <Route path="/" element={<Login />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route></Route>
+      </Routes>
       {users.map((user) => (
         <p key={user.username}>{user.username}</p>
       ))}
