@@ -8,7 +8,7 @@ import data from './data.json'
 
 const App = () => {
   const { users } = useContext(UserContext);
-  const change = "navbar-1"
+  const change = "master-1"
   console.log(change);
   console.log(data);
 
