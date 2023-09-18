@@ -8,7 +8,11 @@ import data from './data.json'
 
 const App = () => {
   const { users } = useContext(UserContext);
+<<<<<<< HEAD
   const change = "new2-1"
+=======
+  const change = "master-2"
+>>>>>>> d938f4b (conflicts 2)
   console.log(change);
   console.log(data);
 
