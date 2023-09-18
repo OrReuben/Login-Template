@@ -16,7 +16,7 @@ const App = () => {
           <li>
             <Link to={"/register"}>register</Link>
           </li>
-          <li>
+           <li>
             <Link to={"/no-route"}>nowhere</Link>
           </li>
         </ul>
