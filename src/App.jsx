@@ -6,7 +6,7 @@ import { useContext } from "react";
 
 const App = () => {
   const { users } = useContext(UserContext);
-  const change = "master-3"
+  const change = "master"
   console.log(change);
 
   return (
