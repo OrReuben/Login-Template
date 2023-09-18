@@ -18,11 +18,9 @@ const App = () => {
           </li>
         </ul>
       </>
-      <Routes>
-        <Route path="/" element={<Login />}></Route>
-        <Route path="/register" element={<Register />}></Route>
-        <Route></Route>
-      </Routes>
+<h1><A>
+  Ariel <Ohana></Ohana>
+  </A></h1>
       {users.map((user) => (
         <p key={user.username}>{user.username}</p>
       ))}
