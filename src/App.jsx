@@ -6,7 +6,7 @@ import { useContext } from "react";
 
 const App = () => {
   const { users } = useContext(UserContext);
-  const change = "navbar-1"
+  const change = "master-1"
   console.log(change);
 
   return (
